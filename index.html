@@ -20,22 +20,27 @@
 <div id="vuukle-comments"></div>
 
 
-<script type="text/javascript">
+<script>
+  VUUKLE_CONFIG = {
+    dev: {
+        commentsUrl: 'https://cdntest.vuukle.com/widgets/feature/modal-lazy-loading/index.html'
+    },
+    host: "relaxed-beaver-76304e.netlify.com",
+    img: "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+    apiKey: "664e0b85-5b2c-4881-ba64-3aa9f992d01c",
+    articleId: "21345abcdef",
+    author: "123",
+    tags: "123",
+    title: "Realtime testing",
+    uri: "https://relaxed-beaver-76304e.netlify.com/21345abcdef",
+  };
 
-  var VUUKLE_CONFIG = {
-    "apiKey": "5de16576-87df-44f0-b954-83e74da3d67a",
-    "articleId": "vuk_article",
-    "img": "article_image.png",
-    "tags": "tag1, tag2, tag3"
-};
-
-  //⛔️ DON'T EDIT BELOW THIS LINE
+  // ⛔️ DON'T EDIT BELOW THIS LINE
   (function() {
     var d = document,
-        s = d.createElement('script');
-        
-    s.src = 'https://cdn.vuukle.com/platform.js';
+      s = d.createElement("script");
+
+      s.src = 'https://cdntest.vuukle.com/feature/modal-lazy-loading/platform.js';
     (d.head || d.body).appendChild(s);
   })();
 </script>
-  
